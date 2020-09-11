@@ -20,7 +20,7 @@ var app = express();
 var google_analytics_id = process.env.GA_ID || null;
 
 var unblockerConfig = {
-    prefix: '/proxy2/',
+    prefix: '/proxy/',
     responseMiddleware: [       
     ]
 };
